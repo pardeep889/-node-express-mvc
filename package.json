@@ -1,0 +1,28 @@
+{
+  "name": "node-express-mvc",
+  "version": "1.0.0",
+  "description": "this is nodejs and express mvc project setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pardeep889/-node-express-mvc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mvc"
+  ],
+  "author": "Pardeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pardeep889/-node-express-mvc/issues"
+  },
+  "homepage": "https://github.com/pardeep889/-node-express-mvc#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
