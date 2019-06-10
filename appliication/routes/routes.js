@@ -5,5 +5,8 @@ module.exports = {
             const welcome = new controllers.Welcome();
             welcome.index(req,res,next);
         });
+        app.get('*', (req,res,next) => {
+          res.send('No route found 404')
+        });
     }
 }
