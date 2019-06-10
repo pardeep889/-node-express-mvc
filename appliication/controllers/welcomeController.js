@@ -1,10 +1,10 @@
-class Welcome {
+class WelcomeController {
     constructor(){
-        console.log('Welcome Constructor Called');
+        console.log('WelcomeController Constructor Called');
     }
     index(req,res,next){
-        res.send(`Welcome Text`);
+        res.send(`WelcomeController Text`);
     }
 }
 
-module.exports = Welcome;
+module.exports = WelcomeController;

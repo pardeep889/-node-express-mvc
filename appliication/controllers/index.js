@@ -1,3 +1,5 @@
+const WelcomeController = require('./welcomeController');
+
 module.exports = {
-   ...require('../controllers/welcomeController'),
+   Welcome: WelcomeController
 }

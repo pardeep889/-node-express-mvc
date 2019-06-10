@@ -1,10 +1,9 @@
-const Welcome = require('../controllers/welcomeController');
-
+const controllers = require('../controllers/index');
 module.exports = {
     routes: function(app){
         app.get('/', (req,res,next) => {
-            const welcome = new Welcome();
-            welcome.index(req,res,next)
+            const welcome = new controllers.Welcome();
+            welcome.index(req,res,next);
         });
     }
 }
