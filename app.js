@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
-const router = require('./appliication/routes/routes');
+const router = require('./application/routes/routes');
 
-router.routes(app);
+router.routes(app); // initialize all routes from application/routes/routes.js
 
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000; // define the port where the app start running.
+
 app.listen(port, () => {
     console.log(`App is started on port: ${port}`);
 });
