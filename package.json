@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/pardeep889/-node-express-mvc#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
